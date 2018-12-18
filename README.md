@@ -11,7 +11,7 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 1. [**Number Guessing**](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/number-guessing.py)  
 2. [**Senate Evacuation**](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/senate-evacuation.py)  
 3. [**Steed 2: Cruise Control**](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/steed-2-cruise-control.py)  
-4. *Bathroom Stalls*  
+4. [**Bathroom Stalls**](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/bathroom-stalls.py)  
 
 ## Qualification Round
 
