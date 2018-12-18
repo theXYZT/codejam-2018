@@ -34,7 +34,7 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 
 ## Round 1C
 
-1. *A Whole New Word*  
+1. [**A Whole New Word**](https://github.com/theXYZT/codejam-2018/blob/master/Round%201C/whole-new-word.py)  
 2. *Lollipop Shop*  
 3. *Ant Stack*  
 
