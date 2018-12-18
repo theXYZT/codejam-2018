@@ -44,12 +44,15 @@ def process_case(case):
 
 # I/O code
 num_cases = int(input())
+
 for case_number in range(1, num_cases + 1):
     R, B, C = [int(i) for i in input().split(" ")]
+
     cashiers = []
     for _ in range(C):
         M, S, P = [int(i) for i in input().split(" ")]
         cashiers.append(Cashier(M, S, P))
+
     case = Case(R, B, cashiers)
     best_time = process_case(case)
     print("Case #{}: {}".format(case_number, best_time))

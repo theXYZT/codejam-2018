@@ -68,14 +68,15 @@ def process_case(waffle, horizontal_cuts, vertical_cuts):
 
 # I/O Code
 num_cases = int(input())
+
 for case_number in range(1, num_cases + 1):
     R, C, H, V = [int(i) for i in input().split(" ")]
 
     waffle_list = []
     for _ in range(R):
         waffle_list.append([int(i == '@') for i in input().strip()])
-
     waffle = Waffle(waffle_list, R, C)
+
     result = process_case(waffle, H, V)
     if result:
         print("Case #{}: POSSIBLE".format(case_number))

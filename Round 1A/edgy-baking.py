@@ -55,6 +55,7 @@ def process_case(max_perimeter, cookies):
 
 # I/O Code
 num_cases = int(input())
+
 for case_number in range(1, num_cases + 1):
     N, P = [int(i) for i in input().split(" ")]
 
