@@ -18,7 +18,7 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 1. [**Saving The Universe Again**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/saving-the-universe-again.py)  
 2. [**Trouble Sort**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/trouble-sort.py)
 3. [**Go, Gopher!**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/go-gopher.py)  
-4. *Cubic UFO*  
+4. [**Cubic UFO**](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/cubic-ufo.py)  
 
 ## Round 1A
 
