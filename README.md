@@ -22,9 +22,9 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 
 ## Round 1A
 
-1. Waffle Choppers
-2. Bit Party  
-3. Edgy Baking
+1. [Waffle Choppers](https://github.com/theXYZT/codejam-2018/blob/master/Round%201A/waffle-choppers.py)
+2. [Bit Party](https://github.com/theXYZT/codejam-2018/blob/master/Round%201A/bit-party.py)  
+3. [Edgy Baking](https://github.com/theXYZT/codejam-2018/blob/master/Round%201A/edgy-baking.py)
 
 ## Round 1B
 
