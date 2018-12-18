@@ -2,14 +2,13 @@
 
 My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/challenges). Please read relevant problem descriptions for more context.
 
-**Links below go to the solutions!**
+**Links below go to the solutions not to the problems!**
 
 ---
 
 ## Practice Session
 
-1. [Number Guessing](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/number-guessing.py)
-
+1. [Number Guessing](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/number-guessing.py)  
 2. [Senate Evacuation](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/senate-evacuation.py)  
 3. Steed 2: Cruise Control  
 4. Bathroom Stalls  
@@ -17,7 +16,7 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 ## Qualification Round
 
 1. Saving The Universe Again  
-2. Trouble Sort  
+2. [Trouble Sort](https://github.com/theXYZT/codejam-2018/blob/master/Qualification%20Round/trouble-sort.py)
 3. Go, Gopher!  
 4. Cubic UFO
 
