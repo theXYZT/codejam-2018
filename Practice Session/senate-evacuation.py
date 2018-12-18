@@ -2,15 +2,17 @@
 
 import string
 
+def evacuate(parties):
+    """Evacuates a senator."""
+    biggest_party = max(parties, key=parties.get)
+    parties[biggest_party] -= 1
+    return biggest_party
+
 def next_evacuation_step(parties):
     """Generates the next evacuation step."""
-    biggest_party = max(parties, key=parties.get)
-    step = biggest_party
-    parties[biggest_party] -= 1
+    step = evacuate(parties)
     if sum(parties.values()) != 2:
-        biggest_party = max(parties, key=parties.get)
-        parties[biggest_party] -= 1
-        step += biggest_party
+        step += evacuate(parties)
     return step
 
 def make_evacuation_plan(parties):
