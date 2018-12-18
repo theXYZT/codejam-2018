@@ -8,8 +8,8 @@ Currently in progress.
 
 ## Practice Session
 
-1. (Number Guessing)[https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/number-guessing.py]  
-2. (Senate Evacuation)[https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/senate-evacuation.py]  
+1. [Number Guessing](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/number-guessing.py)  
+2. [Senate Evacuation](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/senate-evacuation.py)  
 3. Steed 2: Cruise Control  
 4. Bathroom Stalls  
 
