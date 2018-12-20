@@ -69,7 +69,7 @@ def process_case(waffle, horizontal_cuts, vertical_cuts):
 # I/O Code
 num_cases = int(input())
 
-for case_number in range(1, num_cases + 1):
+for case in range(1, num_cases + 1):
     R, C, H, V = [int(i) for i in input().split(" ")]
 
     waffle_list = []
@@ -79,6 +79,6 @@ for case_number in range(1, num_cases + 1):
 
     result = process_case(waffle, H, V)
     if result:
-        print("Case #{}: POSSIBLE".format(case_number))
+        print("Case #{}: POSSIBLE".format(case))
     else:
-        print("Case #{}: IMPOSSIBLE".format(case_number))
+        print("Case #{}: IMPOSSIBLE".format(case))

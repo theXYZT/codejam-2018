@@ -56,7 +56,7 @@ def process_case(max_perimeter, cookies):
 # I/O Code
 num_cases = int(input())
 
-for case_number in range(1, num_cases + 1):
+for case in range(1, num_cases + 1):
     N, P = [int(i) for i in input().split(" ")]
 
     cookies = []
@@ -65,4 +65,4 @@ for case_number in range(1, num_cases + 1):
         cookies.append(Cookie(W, H))
 
     best_perimeter = process_case(P, cookies)
-    print("Case #{}: {:.6f}".format(case_number, best_perimeter))
+    print("Case #{}: {:.6f}".format(case, best_perimeter))
