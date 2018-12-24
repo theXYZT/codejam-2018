@@ -29,8 +29,8 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 ## Round 1B
 
 1. [**Rounding Error**](https://github.com/theXYZT/codejam-2018/blob/master/Round%201B/rounding-error.py)  
-2. *Mysterious Road Signs*  
-3. *Transmutation*  
+2. [**Mysterious Road Signs**](https://github.com/theXYZT/codejam-2018/blob/master/Round%201B/mysterious-road-signs.py)  
+3. [**Transmutation**](https://github.com/theXYZT/codejam-2018/blob/master/Round%201B/transmutation.py)  
 
 ## Round 1C
 
