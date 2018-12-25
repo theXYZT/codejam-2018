@@ -41,7 +41,7 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 ## Round 2
 
 1. [**Falling Balls**](https://github.com/theXYZT/codejam-2018/blob/master/Round%202/falling-balls.py)  
-2. *Graceful Chainsaw Jugglers*  
+2. [**Graceful Chainsaw Jugglers**](https://github.com/theXYZT/codejam-2018/blob/master/Round%202/graceful-chainsaw-jugglers.py)  
 3. *Costume Change*  
 4. *Gridception*
 
