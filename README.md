@@ -42,7 +42,7 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 
 1. [**Falling Balls**](https://github.com/theXYZT/codejam-2018/blob/master/Round%202/falling-balls.py)  
 2. [**Graceful Chainsaw Jugglers**](https://github.com/theXYZT/codejam-2018/blob/master/Round%202/graceful-chainsaw-jugglers.py)  
-3. *Costume Change*  
+3. [**Costume Change**](https://github.com/theXYZT/codejam-2018/blob/master/Round%202/costume-change.py)  
 4. *Gridception*
 
 ## Round 3
