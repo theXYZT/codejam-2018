@@ -47,7 +47,7 @@ My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/chal
 
 ## Round 3
 
-1. *Field Trip*  
+1. [**Field Trip**](https://github.com/theXYZT/codejam-2018/blob/master/Round%203/field-trip.py)  
 2. *Name-Preserving Network*  
 3. *Raise the Roof*  
 4. *Fence Construction*  
