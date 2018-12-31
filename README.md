@@ -49,7 +49,7 @@ All solutions are written in Python 3.
 ## Round 3
 
 1. [**Field Trip**](https://github.com/theXYZT/codejam-2018/blob/master/Round%203/field-trip.py)  
-2. *Name-Preserving Network*  
+2. [**Name-Preserving Network**](https://github.com/theXYZT/codejam-2018/blob/master/Round%203/name-preserving-network.py)  
 3. *Raise the Roof*  
 4. *Fence Construction*  
 
