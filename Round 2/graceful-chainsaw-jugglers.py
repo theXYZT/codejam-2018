@@ -8,12 +8,11 @@ def max_blue(red, jugglers):
     """Finds maximum possible value of blue."""
     if jugglers == 0:
         return 0
-
     if red == 0:
         return jugglers * (jugglers - 1) // 2
 
     blue = math.inf
-    
+
     N = 1
     while N * (N - 1) <= 2 * red and N <= jugglers:
         temp = max_blue(red - N * (N - 1) // 2, jugglers - N) + jugglers - N
