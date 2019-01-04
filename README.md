@@ -50,7 +50,7 @@ All solutions are written in Python 3.
 
 1. [**Field Trip**](https://github.com/theXYZT/codejam-2018/blob/master/Round%203/field-trip.py)  
 2. [**Name-Preserving Network**](https://github.com/theXYZT/codejam-2018/blob/master/Round%203/name-preserving-network.py)  
-3. *Raise the Roof*  
+3. [**Raise the Roof**](https://github.com/theXYZT/codejam-2018/blob/master/Round%203/raise-the-roof.py)  
 4. *Fence Construction*  
 
 ## World Finals
