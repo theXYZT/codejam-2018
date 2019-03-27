@@ -1,8 +1,6 @@
 # Codejam 2018 Solutions
 
-My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/challenges). Please read relevant problem descriptions for more context.
-
-All solutions are written in Python 3. Only solutions that pass ALL inputs successfully are posted here.
+My solutions to [Codejam 2018 problems](https://codejam.withgoogle.com/2018/challenges). Please read relevant problem descriptions for more context. All solutions are written in Python 3. *Only solutions that pass ALL inputs successfully are posted here.*
 
 **Links below go to the solutions not to the problems!**
 
