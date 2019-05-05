@@ -1,4 +1,4 @@
-# Codejam 2018, Qualification: Saving the Universe Again
+# Codejam 2018, Qualification Round: Saving the Universe Again
 
 def calculate_damage(program):
     """Calculate the damage done by program."""

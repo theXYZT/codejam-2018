@@ -1,4 +1,4 @@
-# Codejam 2018, Qualification: Go, Gopher!
+# Codejam 2018, Qualification Round: Go, Gopher!
 
 import sys
 

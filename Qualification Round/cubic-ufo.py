@@ -1,4 +1,4 @@
-# Codejam 2018, Qualification: Cubic UFO
+# Codejam 2018, Qualification Round: Cubic UFO
 
 from math import sqrt, cos, sin, atan2
 

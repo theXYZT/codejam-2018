@@ -1,4 +1,4 @@
-# Codejam 2018, Qualification: Trouble Sort
+# Codejam 2018, Qualification Round: Trouble Sort
 
 def interleave(a, b):
     """Interleave two lists."""
