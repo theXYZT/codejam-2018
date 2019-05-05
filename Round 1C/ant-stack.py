@@ -14,7 +14,6 @@ def get_max_stack(ant_list):
                     temp_stacks.append(stacks[i] + ant)
                 elif stacks[i + 1] > stacks[i] + ant:
                     temp_stacks[i + 1] = stacks[i] + ant
-        print(temp_stacks)
         stacks = temp_stacks
 
     return len(stacks) - 1
