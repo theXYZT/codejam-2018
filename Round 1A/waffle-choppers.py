@@ -70,7 +70,7 @@ def process_case(waffle, horizontal_cuts, vertical_cuts):
 num_cases = int(input())
 
 for case in range(1, num_cases + 1):
-    R, C, H, V = [int(i) for i in input().split(" ")]
+    R, C, H, V = map(int, input().split())
 
     waffle_list = []
     for _ in range(R):

@@ -2,8 +2,7 @@
 
 def calculate_damage(program):
     """Calculate the damage done by program."""
-    strength = 1
-    damage = 0
+    strength, damage = 1, 0
     for instruction in program:
         if instruction == 'C':
             strength *= 2
@@ -25,7 +24,7 @@ def minimum_hacks(program, damage):
     if calculate_damage(program) <= max_damage:
         return num_hacks
     else:
-        return None
+        return 'IMPOSSIBLE'
 
 # I/O Code
 num_cases = int(input())
@@ -35,7 +34,4 @@ for case in range(1, num_cases + 1):
     max_damage = int(max_damage)
 
     min_hacks = minimum_hacks(program, max_damage)
-    if min_hacks is None:
-        print('Case #{}: IMPOSSIBLE'.format(case))
-    else:
-        print('Case #{}: {}'.format(case, min_hacks))
+    print('Case #{}: {}'.format(case, min_hacks))

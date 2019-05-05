@@ -21,7 +21,6 @@ def get_next_position(grid):
     width = len(grid[0])
     unprepared = [inspect_around_position(grid, x) 
                   for x in range(1, width - 1)]
-
     return unprepared.index(max(unprepared)) + 2
 
 # I/O Code
@@ -35,7 +34,7 @@ for case in range(1, num_cases + 1):
         x_send, y_send = get_next_position(grid), 2
         print('{} {}'.format(x_send, y_send), flush=True)
 
-        x_recv, y_recv = [int(i) for i in input().split()]
+        x_recv, y_recv = map(int, input().split())
         if x_recv <= 0 or y_recv <= 0:
             break
         else:

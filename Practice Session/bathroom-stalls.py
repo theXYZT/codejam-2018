@@ -1,42 +1,37 @@
 # Codejam 2018, Practice Session: Bathroom Stalls
 
-def left_and_right(interval):
-    """Splits an interval into left and right intervals."""
+from collections import defaultdict
+
+def get_left_right(interval):
+    """Get left and right sub-intervals for an interval."""
     return (interval - 1) // 2, interval // 2
 
-def add_interval(intervals, interval, num_intervals):
-    """Add required intervals to list of intervals."""
-    if interval in intervals:
-        intervals[interval] += num_intervals
-    else:
-        intervals[interval] = num_intervals
+def split_longest_interval(intervals):
+    """Split longest intervals."""
+    longest = max(intervals)
+    num_intervals = intervals.pop(longest)
+    left, right = get_left_right(longest)
 
-def add_people(intervals):
-    """Split the largest intervals."""
-    interval = max(intervals)
-    num_intervals = intervals.pop(interval)
-    
-    left, right = left_and_right(interval)
+    if left:
+        intervals[left] += num_intervals
+    if right:
+        intervals[right] += num_intervals
 
-    if left > 0:
-        add_interval(intervals, left, num_intervals)
-    if right > 0:
-        add_interval(intervals, right, num_intervals)
+def solve_case(num_stalls, num_people):
+    intervals = defaultdict(int)
+    intervals[num_stalls] = 1
 
-def process_case(num_stalls, num_people):
-    """Process test cases given number of stalls and people."""
-    intervals = {num_stalls: 1}
-    people_left = num_people
-    while intervals[max(intervals)] < people_left:
-        people_left -= intervals[max(intervals)]
-        add_people(intervals)
-    return left_and_right(max(intervals))
+    while intervals[max(intervals)] < num_people:
+        num_people -= intervals[max(intervals)]
+        split_longest_interval(intervals)
+
+    return get_left_right(max(intervals))
 
 # I/O Code
 num_cases = int(input())
 
 for case in range(1, num_cases + 1):
-    num_stalls, num_people = [int(i) for i in input().split()]
+    num_stalls, num_people = map(int, input().split())
 
-    min_LR, max_LR = process_case(num_stalls, num_people)
+    min_LR, max_LR = solve_case(num_stalls, num_people)
     print('Case #{}: {} {}'.format(case, max_LR, min_LR))

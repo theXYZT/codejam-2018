@@ -1,5 +1,3 @@
-# Codejam 2018, Round 1A: Bit Party
-
 from collections import namedtuple
 
 # Object for input case parameters
@@ -24,14 +22,14 @@ class Cashier():
 
 
 def test_time(t, case):
-    """Finds if problem can be solved in time t."""
+    """Can we solve the problem in time t?"""
     num_bits_cashier = [x.num_bits_in_time(t) for x in case.cashiers]
     sorted_cashier_bits = sorted(num_bits_cashier, reverse=True)
     total_bits = sum(sorted_cashier_bits[:case.robots])
     return total_bits >= case.bits
 
 def process_case(case):
-    """Runs binary search for smallest time t that works."""
+    """Binary search for smaller time t that works."""
     min_time = 0
     max_time = max([cashier.max_time for cashier in case.cashiers])
     while max_time - min_time > 1:
@@ -44,15 +42,12 @@ def process_case(case):
 
 # I/O code
 num_cases = int(input())
-
-for case in range(1, num_cases + 1):
-    R, B, C = [int(i) for i in input().split(" ")]
-
+for case_number in range(1, num_cases + 1):
+    R, B, C = map(int, input().split())
     cashiers = []
     for _ in range(C):
-        M, S, P = [int(i) for i in input().split(" ")]
+        M, S, P = map(int, input().split())
         cashiers.append(Cashier(M, S, P))
-
     case = Case(R, B, cashiers)
     best_time = process_case(case)
-    print("Case #{}: {}".format(case, best_time))
+    print("Case #{}: {}".format(case_number, best_time))

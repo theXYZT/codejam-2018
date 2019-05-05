@@ -57,11 +57,11 @@ def process_case(max_perimeter, cookies):
 num_cases = int(input())
 
 for case in range(1, num_cases + 1):
-    N, P = [int(i) for i in input().split(" ")]
+    N, P = map(int, input().split())
 
     cookies = []
     for _ in range(N):
-        W, H = [int(i) for i in input().split(" ")]
+        W, H = map(int, input().split())
         cookies.append(Cookie(W, H))
 
     best_perimeter = process_case(P, cookies)

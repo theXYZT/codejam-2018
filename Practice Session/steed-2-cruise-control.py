@@ -17,11 +17,11 @@ def find_max_speed(horses):
 num_cases = int(input())
 
 for case in range(1, num_cases + 1):
-    destination, num_horses = [int(i) for i in input().split()]
+    destination, num_horses = map(int, input().split())
 
     horses = []
     for _ in range(num_horses):
-        position, speed = [int(i) for i in input().split()]
+        position, speed = map(int, input().split())
         horses.append(Horse(position, speed, destination))
 
     max_speed = find_max_speed(horses)

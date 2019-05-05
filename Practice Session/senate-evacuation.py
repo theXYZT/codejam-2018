@@ -27,7 +27,7 @@ num_cases = int(input())
 
 for case in range(1, num_cases + 1):
     num_parties = int(input())
-    num_members = [int(i) for i in input().split()]
+    num_members = map(int, input().split())
 
     parties = dict(zip(string.ascii_uppercase[:num_parties], num_members))
 
