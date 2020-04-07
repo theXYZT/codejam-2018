@@ -84,7 +84,7 @@ in the notes.*
 
 | # | Problem | Solution | Notes |
 |---|---------|----------|-------|
-| A | [Jurisdiction Restrictions](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004dbbd) | [Solution]() | |
+| A | [Jurisdiction Restrictions](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004dbbd) | []() | |
 | B | [Two-Tiling](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da97) | []() | |
 | C | [Go, Gophers!](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da2d) | []() | |
 | D | [Swordmaster](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d961) | []() | |
