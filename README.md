@@ -85,7 +85,7 @@ in the notes.*
 | # | Problem | Solution | Notes |
 |---|---------|----------|-------|
 | A | [Jurisdiction Restrictions](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004dbbd) | [Solution]() | |
-| B | [Two-Tiling](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da97) | [Solution]() | |
-| C | [Go, Gophers!](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da2d) | [Solution]() | |
-| D | [Swordmaster](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d961) | [Solution]() | |
-| E | [The Cartesian Job](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d962) | [Solution]() | |
+| B | [Two-Tiling](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da97) | []() | |
+| C | [Go, Gophers!](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004da2d) | []() | |
+| D | [Swordmaster](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d961) | []() | |
+| E | [The Cartesian Job](https://codingcompetitions.withgoogle.com/codejam/round/0000000000007766/000000000004d962) | []() | |
