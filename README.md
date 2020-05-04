@@ -19,10 +19,10 @@ in the notes.*
 
 | # | Problem | Solution | Notes |
 |---|---------|----------|-------|
-| A | [Number Guessing](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523) | [Solution](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/number-guessing.py) | |
-| B | [Senate Evacuation](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0) | [Solution](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/senate-evacuation.py) | |
-| C | [Steed 2: Cruise Control](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000524) | [Solution](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/steed-2-cruise-control.py) | |
-| D | [Bathroom Stalls](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000652) | [Solution](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/bathroom-stalls.py) | |
+| A | [Number Guessing](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000523) | [Python 3](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/number-guessing.py) | |
+| B | [Senate Evacuation](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/00000000000004c0) | [Python 3](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/senate-evacuation.py) | |
+| C | [Steed 2: Cruise Control](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000524) | [Python 3](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/steed-2-cruise-control.py) | |
+| D | [Bathroom Stalls](https://codingcompetitions.withgoogle.com/codejam/round/0000000000000130/0000000000000652) | [Python 3](https://github.com/theXYZT/codejam-2018/blob/master/Practice%20Session/bathroom-stalls.py) | |
 
 
 ## [Qualification Round](https://codingcompetitions.withgoogle.com/codejam/round/00000000000000cb)
